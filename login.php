@@ -15,7 +15,7 @@ if ($user) {
         // Iniciar sesión
         session_start();
         $_SESSION['user_id'] = $user['id'];
-        echo "Inicio de sesión exitoso";
+       // echo "Inicio de sesión exitoso";
         header("Location: notas_view.php");
         exit;
     } else {
